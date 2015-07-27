@@ -394,7 +394,7 @@
             self = this;
 
             // Getting all data Parameters to fully customize the single tag box selecteds
-            self.config = $.extend( {}, self.defaults, self.options, self.getDataOptions() );
+            self.config = $.extend( {}, self.defaults, self.options );
 
             // Pre-existent text
             init_text = self.$elem.text();
